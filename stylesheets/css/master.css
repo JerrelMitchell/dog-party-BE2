@@ -1,3 +1,27 @@
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	background-color: white;
+	text-decoration: underline;
+}
+
+a:active {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
 p {
 	font-family: "Raleway";
 }
@@ -55,7 +79,7 @@ figure img {
 	flex-grow: 100;
 	border-radius: 50%;
 	border: 2px solid #518ca4;
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .centered {
@@ -72,7 +96,7 @@ figure img {
 .header-button {
 	display: inline-block;
 	position: absolute;
-	left: 80px;
+	left: 70px;
 	color: #518ca4;
 	background-color: #ffffff;
 	font-size: 16px;
